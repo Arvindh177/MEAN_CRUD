@@ -10,7 +10,7 @@ import {
   providedIn: 'root',
 })
 export class ApiService {
-  baseUri: string = 'http://localhost:4000/api';
+  baseUri: string = 'https://crud-employee-80ph.onrender.com/api';
   headers = new HttpHeaders().set('Content-Type', 'application/json');
   constructor(private http: HttpClient) {}
   
